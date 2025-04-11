@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhatri portfolio</title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="mediaqueries.css" /> 
+</head>
+<body>
+    <!-- HTML code for nav bar -->
+     <nav id="desktop-nav">
+        <div class="logo">Dhatri Maddela</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#experience">Experience</a></li>
+                <li> <a href="#certifications">Certifications</a></li>
+               <!--<li> <a href="#projects">Projects</a></li> --> 
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+     </nav>
+     <!-- hamburger menu-->
+      <nav id="hamburger-nav">
+        <div class="logo">Dhatri Maddela</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="togglemenu()">About</a></li>
+                <li> <a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li> <a href="#certifications" onclick="togglemenu()">Certifications</a></li>
+               <!-- <li> <a href="#projects" onclick="togglemenu()">Projects</a></li> -->
+                <li> <a href="#contact" onclick="togglemenu()">Contact</a></li>
+
+            </div>     </div>   
+
+      </nav>
+      <!-- Profile section-->
+       <section id="profile">
+            <!-- Profile photo-->
+            <div class="section__pic-container">
+                <img src="./Assets/WhatsApp Image 2025-04-10 at 21.48.43_09b0d653.jpg" alt="Dhatri Profile pic" />
+
+            </div>
+
+            <!-- Profile Text-->
+            <div class="section__text">
+                <p class="section__text__p1">Hello I'm</p>
+                <h1 class="title">Dhatrika</h1>
+                <p class="section__text__p2">a Developer</p>
+                <!-- button to resume download-->
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./Assets/DhatrikaSaiLakshmiMaddelaResume (4).pdf')">Download Resume</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+                
+                </div>
+                 <!--adding linked in-->
+                <div id = "socials-container">
+                    <img src="./Assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/in/dhatri-maddela-26b995213/'" />
+                    <img src="./Assets/github.png" alt="My Git Hub Profile" class="icon" onclick="location.href='https://github.com/'" />
+                </div>
+            
+               
+            </div>
+             
+       </section>
+    <!--About Section-->
+       <section id="about">
+        <p class="section__text__p1">Get To Know More </p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+           <!-- <div class="section__pic-container">
+                <img src="./Assets/about-pic.png" alt="Profile picture" class="about-pic" />
+            </div>-->
+        
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>1.5+ years <br />.NET Development </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.TECH  ECE <br />M.B.A  Bussiness Analytics [Currently pursuing] </p>
+                    </div>
+            
+                
+                </div>
+                <div class="text-container">
+                    <p>
+                        👨‍💻 web Developer | experience 1.5+ Year |
+                         💻 Passionate about building applications |
+                         |Skills : .NET CORE, WEB API, SQL SERVER, HTML&CSS, PYTHON, ASP.NET MVC
+                          🚀 Exploring tech innovations | 🌟 Always learning & growing |
+
+                    </p>
+                </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'" />
+       </section>
+    <!--Experience Section-->
+       <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <!--article to represent skills-->
+                            <!--article 1-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>ASP.NET CORE</h3> 
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!--article 2-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>WEB API</h3> 
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!--article 3-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>SQL SERVER</h3> 
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!--article 4-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>ASP.NET MVC</h3> 
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!--article 5-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>Azure</h3> 
+                                    <p>Basics</p>
+                                </div>
+                            </article>
+                            <!--article 6-->
+                            <article>
+
+                            </article>
+                            
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <!--article to represent skills-->
+                            <!--article 1-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>Python</h3> 
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <!--article 2-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>HTML</h3> 
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <!--article 3-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>CSS</h3> 
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <!--article 4-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>JavaScript</h3> 
+                                    <p>Basics</p>
+                                </div>
+                            </article>
+                            <!--article 5-->
+                            <article>
+                                <img src="./Assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div> 
+                                    <h3>React</h3> 
+                                    <p>Basics</p>
+                                </div>
+                            </article>
+                             <!--article 6-->
+                             <article>
+                                
+                             </article>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#certifications'" />
+       </section>
+    <!--pROJECT SECTION-->
+      <!-- <section id="projects">
+            <p class="section__text__p1">browse My Recent </p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+               <div class="about-containers"> 
+                    project 1
+                    <div class="details-container  color-container">
+                        <div class="article-container">
+                            <img src="./Assets/project-1.png" alt="Project 1" class="project-img" />
+
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project One</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">LiveDemo</button>
+                        </div>
+                    </div>
+                    project 2
+                    <div class="details-container  color-container">
+                        <div class="article-container">
+                            <img src="./Assets/project-1.png" alt="Project 2" class="project-img" />
+
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">LiveDemo</button>
+                        </div>
+                    </div>
+                     project 3
+                    <div class="details-container  color-container">
+                    <div class="article-container">
+                        <img src="./Assets/project-1.png" alt="Project 3" class="project-img" />
+
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">LiveDemo</button>
+                    </div>
+                </div>
+            </div>
+            
+
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#contact'" />
+       </section> -->
+
+    <!--Certification section-->
+    <section id="certifications">
+        <p class="section__text__p1">browse My Recent </p>
+        <h1 class="title">Certifications</h1>
+        <div class="experience-details-container">
+           <div class="about-containers"> 
+                <!-- certification 1-->
+                <div class="details-container  color-container">
+                    <div class="article-container">
+                        <img src="./Assets/AZ 900.png" alt="certification 1" class="project-img" />
+
+                    </div>
+                    <h2 class="experience-sub-title project-title">AZ 900</h2>
+                    <div class="btn-container">
+                        <a href="/Assets/AZ 900.pdf" target="_blank">View Certificate</a>
+                        
+                        
+
+                   
+                    </div>
+                </div>
+                
+                <!-- certification 2-->
+                <div class="details-container  color-container">
+                    <div class="article-container">
+                        <img src="./Assets/DP-900.png" alt="certification 1" class="project-img" />
+
+                    </div>
+                    <h2 class="experience-sub-title project-title">DP 900 </h2>
+                    <div class="btn-container">
+                        <a href="Assets/DP 900.pdf" target="_blank">View Certificate</a>
+                        
+                        
+
+                   
+                    </div>
+                </div>
+                <!-- certification 3-->
+                <div class="details-container  color-container">
+                    <div class="article-container">
+                        <img src="./Assets/cloud practitioner.webp" alt="certification 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Aws Cloud Practitioner</h2>
+                    <div class="btn-container">
+                        <a href="Assets/AWS Certified Cloud Practitioner certificate (1).pdf" target="_blank">View Certificate</a>
+                        
+                        
+
+                   
+                    </div>
+                </div>
+                
+        
+        </div>
+        
+
+    <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#contact'" />
+   </section>
+    <!--Contact Section-->
+       <section id="contact" >
+            <p class="section__text__p1">Get in touch</p>
+            <h1 class="title">Contact me</h1>
+            
+            <div class="contact-info-upper-container">
+                <!--email button-->
+                <div class="contact-info-container">
+                    <img src="./Assets/email.png" alt="Email icon" class="icon contact-icon" />
+                    <p><a href="mailto:dhatrikamaddela@gmail.com">dhatrikamaddela@gmail.com</a></p>
+                </div>
+
+                <!--linkedin button-->
+                <div class="contact-info-container">
+                    <img src="./Assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <p><a href="https://linkedin.com/in/dhatri-maddela-26b995213/">LinkedIn</a></p>
+                </div>
+            </div>
+       </section>
+
+    <!--Footer section-->
+       <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#experience">Experience</a></li>
+                        <li> <a href="#certifications">Certifications</a></li>
+                        <!--<li> <a href="#projects">Projects</a></li> -->
+                        <li> <a href="#contact">Contact</a></li>  
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2025 Dhatrika Maddela </p>
+       </footer>
+    <script src="script.js"></script>
+</body>
+</html>
